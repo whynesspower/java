@@ -29,7 +29,7 @@ class User implements Serializable {
     }
 }
 
-public class TransientExample {
+public class Transient {
     public static void main(String[] args) {
         // Creating an instance of User
         User user = new User("john_doe", "super_secret_password");
